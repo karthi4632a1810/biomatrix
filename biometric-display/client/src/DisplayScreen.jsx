@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { useParams } from "react-router-dom";
 
 const REFRESH_MS = 10000;
-const API_BASE = `${window.location.protocol}//${window.location.hostname}:4000`;
+const API_BASE = `${window.location.protocol}//${window.location.hostname}:7000`;
 
 const AVATAR_COLORS = [
   "#f97066",

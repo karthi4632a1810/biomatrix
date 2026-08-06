@@ -61,5 +61,5 @@ app.get("/api/attendance/:ip/:limit", async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 7000;
 app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
